@@ -1,0 +1,20 @@
+﻿@model AspLesson10._2.Models.Email
+<html>
+<head>
+    <title>Email Form</title>
+</head>
+<body>
+    <form asp-action="Ex2">
+        <label asp-for="Receiver"></label>
+        <input asp-for="Receiver" />
+        <br />
+        <label asp-for="Subject"></label>
+        <input asp-for="Subject" />
+        <br />
+        <label asp-for="Body"></label>
+        <input asp-for="Body" />
+        <br />
+        <input type="submit" value="Send"/>
+    </form>
+</body>
+</html>
